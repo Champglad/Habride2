@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hab Ride - Fast & Reliable Rides</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+    <div class="container">
+        <h1>Welcome to Hab Ride</h1>
+        <p>Your fast, safe, and affordable ride is just a tap away.</p>
+        <a href="#book" class="btn">Book a Ride</a>
+    </div>
+</header>
+
+<section class="features">
+    <div class="container">
+        <h2>Why Choose Hab Ride?</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Quick Booking</h3>
+                <p>Book your ride in under a minute with our easy-to-use app.</p>
+            </div>
+            <div class="feature">
+                <h3>Affordable Prices</h3>
+                <p>Get where you're going without breaking the bank.</p>
+            </div>
+            <div class="feature">
+                <h3>Safe & Trusted</h3>
+                <p>All drivers are verified and rated by real users like you.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Hab Ride was created with one mission: to make reliable transportation accessible to everyone. Whether you're heading to work, the airport, or a night out, we've got you covered.</p>
+    </div>
+</section>
+
+<section id="book" class="contact">
+    <div class="container">
+        <h2>Book Your Ride</h2>
+        <form id="bookingForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="text" placeholder="Pickup Location" required />
+            <input type="text" placeholder="Drop-off Location" required />
+            <button type="submit" class="btn">Submit Request</button>
+        </form>
+        <p id="formMsg"></p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Hab Ride. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

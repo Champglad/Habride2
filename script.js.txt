@@ -1,0 +1,5 @@
+document.getElementById("bookingForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    document.getElementById("formMsg").textContent = "Thank you! Your ride request has been submitted.";
+    this.reset();
+});
